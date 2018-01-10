@@ -66,7 +66,7 @@ $(function($) {
         $("#save_change").text(save_text);
         if (needs_delete) {
             if ($("#delete_button").length == 0) {
-                $("<button type='button' class='btn btn-warning' id='delete_button'>Delete Event</button>").insertAfter("#close_button");
+                $("<button type='button' class='btn btn-warning' id='delete_button'>Delete Event</button>").insertAfter("button#close_button");
             }
         } else {
             if ($("#delete_button").length != 0) {
